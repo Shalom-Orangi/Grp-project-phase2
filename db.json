@@ -1,0 +1,202 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "CeraVe",
+      "description": "This is an example.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Skincare",
+      "price": 10.99,
+      "popular": true
+    },
+    {
+      "id": 2,
+      "title": "Biossance",
+      "description": "Face cream",
+      "image": "https://plus.unsplash.com/premium_photo-1661779239221-6a8dddfe8a31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyZnVtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "category": "Skincare",
+      "price": 20.99,
+      "popular": true
+    },
+    {
+      "id": 3,
+      "title": "Cetaphil",
+      "description": "a gentle skincare brand that has been recommended and trusted by doctors",
+      "image": "https://images.unsplash.com/photo-1631730486572-226d1f595b68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNraW4lMjBjYXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "category": "Skincare",
+      "price": 10.99,
+      "popular": false
+    },
+    {
+      "id": 4,
+      "title": "CeraVe",
+      "description": "This is an example.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Skincare",
+      "price": 10.99,
+      "popular": true
+    },
+    {
+      "id": 5,
+      "title": "Lake & Skye 11 11 Eau de Parfum",
+      "description": "A fragrance that is both feminine and masculine, with a blend of citrus, floral, and woody notes.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 70.99,
+      "popular": true
+    },
+    {
+      "id": 6,
+      "title": "Burberry London Eau de Parfum Spray",
+      "description": "A fragrance that is both feminine and masculine, with a blend of citrus, floral, and woody notes.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 10.99,
+      "popular": true
+    },
+    {
+      "id": 7,
+      "title": "Versace Bright Crystal Eau de Toilette",
+      "description": "Women perfume",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 10.99,
+      "popular": true
+    },
+    {
+      "id": 8,
+      "title": "Guess by Marciano Eau de Parfum",
+      "description": "This is an example.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 10.99,
+      "popular": false
+    },
+    {
+      "id": 9,
+      "title": "Fresh Sugar Lychee Eau de Parfum",
+      "description": "Fruit perfume",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 25.99,
+      "popular": false
+    },
+    {
+      "id": 10,
+      "title": "Jo Malone English Pear & Freesia Cologne",
+      "description": "This is an example.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 10.99,
+      "popular": false
+    },
+    {
+      "id": 11,
+      "title": "Neutrogena Rapid Clear 2-in-1 Fight & Fade Toner 236ml",
+      "description": "A skin clearing toner formulated to clear breakouts and fade post-acne marks to reveal a clear, more even-toned skin",
+      "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/11/23101811/neutrogena_rapid_clear_fade_fight_toner-600x600.jpg",
+      "category": "Skincare",
+      "price": 10.99,
+      "popular": true
+    },
+    {
+      "id": 12,
+      "title": "Laneige Lip Sleeping Mask EX Berry 20ml",
+      "description": "An upgraded formulation of best-selling Laneige Lip Sleeping Mask that helps dissolve dead skin cells, moisturize, smooth and plump your lips overnight",
+      "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/04/14120453/laneige_lip_sleeping_mask_ex_berry_20g-600x600.jpg",
+      "category": "Skincare",
+      "price": 10.99,
+      "popular": true
+    },
+    {
+      "id": 13,
+      "title": "Benton Aloe Propolis Soothing Gel 100ml",
+      "description": "A lightweight, fragrance free, gel-type moisturizer that penetrates deep into skin to calm, nourish and hydrate skin. Infused with Aloe and Propolis to help soothe irritated skin, prevent acne scars, brighten skin tone and hydrate skin throughout the day.",
+      "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/02/03174813/benton_aloe_propolis_soothing_gel-600x600.jpg",
+      "category": "Skincare",
+      "price": 18.99,
+      "popular": true
+    },
+    {
+      "id": 14,
+      "title": "Etude House Moistfull Collagen Deep Cream 75ml",
+      "description": "Deep hydrating face cream enriched with super Collagen and Baobab water to provide moisture and keep skin looking healthy and moistfull all day long. This moisturizer absorbs quickly without leaving any greasy residue and is great choice for flaky, dry skin. Your skin will feel soft and supple after every application.",
+      "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/02/03174813/benton_aloe_propolis_soothing_gel-600x600.jpg",
+      "category": "Skincare",
+      "price": 26.99,
+      "popular": false
+    },
+    {
+      "id": 15,
+      "title": "Mizon Black Snail All In One Cream 75ml",
+      "description": "Mizon Black Snail All In One Cream is formulated with with 90% Black Snail filtrate, 20 different plant extracts, Adenosine, Peptides, and Niacinamide. A premium cream that will take care of all skin types and problems including pores and blackheads, rough or dull complexion, dark spots, blemishes, and even scarring.",
+      "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/03/30120851/mizon_black_snail_all_in_one_cream-600x600.jpg",
+      "category": "Skincare",
+      "price": 26.99,
+      "popular": true
+    },
+    {
+      "title": "Versace",
+      "image": "http://res.cloudinary.com/dapnnry4b/image/upload/v1664946698/ciax3qzd9cdubvudhz68.jpg",
+      "description": "This is a man perfume",
+      "category": "Fragrance",
+      "price": "2500",
+      "popular": false,
+      "id": 16
+    },
+    {
+      "title": "My scents",
+      "image": "http://res.cloudinary.com/dapnnry4b/image/upload/v1664947520/n0uhgtb4odkjvft6rzbq.jpg",
+      "description": "eau de perfume for women",
+      "category": "Fragrance",
+      "price": "2000",
+      "popular": false,
+      "id": 17
+    },
+    {
+      "title": "Love rocks",
+      "image": "http://res.cloudinary.com/dapnnry4b/image/upload/v1664947717/buleai9d7fdribyhqlka.jpg",
+      "description": "victoria secret",
+      "category": "Fragrance",
+      "price": "12.00",
+      "popular": false,
+      "id": 18
+    },
+    {
+      "title": "N\"5 Channel",
+      "image": "http://res.cloudinary.com/dapnnry4b/image/upload/v1664948017/fw22pxjaairwhtljr2p5.jpg",
+      "description": "eau de perfume",
+      "category": "Fragrance",
+      "price": "32.00",
+      "popular": false,
+      "id": 19
+    },
+    {
+      "title": "Ladies perfume",
+      "image": "",
+      "description": "eau de perfume",
+      "category": "Fragrance",
+      "price": "20",
+      "popular": false,
+      "id": 20
+    },
+    {
+      "title": "ki",
+      "image": "",
+      "description": "jkl",
+      "category": "bjkl",
+      "price": "02",
+      "popular": false,
+      "id": 21
+    },
+    {
+      "title": "[ormj",
+      "image": "",
+      "description": "ahkcbsyygwikbjcalwoe/'qui",
+      "category": "dwekhsdb",
+      "price": "3",
+      "popular": false,
+      "id": 22
+    }
+  ]
+}
