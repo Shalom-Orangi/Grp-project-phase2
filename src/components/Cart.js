@@ -5,6 +5,27 @@ import { Link } from "react-router-dom";
 
 const Cart = () => {
   const { items, removeItem } = useContext(CartContext);
+
+  const handleDelete = async (itemId)=>{
+    try{
+      const response =await fetch(`http://localhost:3000/products/${itemId}`,{
+        method:"DELETE",
+        headers:{
+          "Content-Type":"application/json",
+        },
+      });
+      if (response.ok){
+        //Item successfully deleted from the server
+        removeItem(itemId);
+      }else{
+        //Handle error
+        console.log("Failed to delete item from the cart");
+      }
+    }catch (error) {
+      console.error("Error:",error);
+    }
+  };
+
   return (
     <>
       <h1 className="text-center">Cart</h1>
@@ -45,7 +66,7 @@ const Cart = () => {
                       className="btn btn-danger btn-sm mt-2"
                       type="button"
                       onClick={() => {
-                        removeItem(item.id);
+                        handleDelete(item.id);
                       }}
                     >
                       remove
