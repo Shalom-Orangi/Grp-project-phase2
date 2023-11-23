@@ -1,0 +1,36 @@
+.card {
+  height: 500px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 300px;
+  background-color: white;
+  align-items: center;
+}
+.price {
+  display: flex;
+  font-size: 1.5rem;
+  color: rgb(24, 21, 44);
+  margin: 0.5rem 0;
+  margin-right: 20px;
+}
+.card > img {
+  height: 200px;
+  width: 200px;
+}
+.below {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.cart {
+  font-size: 2rem;
+  color: rgb(20, 18, 43);
+  margin-bottom: 15px;
+}
+.cart:hover {
+  color: rgb(29, 83, 16);
+  cursor: pointer;
+}
