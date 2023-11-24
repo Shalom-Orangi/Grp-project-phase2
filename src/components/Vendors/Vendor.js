@@ -60,7 +60,7 @@ const Vendor = () => {
             <h1>Add your product</h1>
             <div className="set">
               <div className="pets-name">
-                <label htmlFor="events-name">Enter title of the product</label>
+                <label for="events-name">Enter title of the product</label>
                 <input
                   id="events-name"
                   type="text"
@@ -85,7 +85,7 @@ const Vendor = () => {
             </div>
             <div className="set">
               <div className="pets-breed">
-                <label htmlFor="events-venue">category</label>
+                <label for="events-venue">category</label>
 
                 <input
                   id="events-venue"
@@ -96,7 +96,7 @@ const Vendor = () => {
                 />
               </div>
               <div className="pets-birthday">
-                <label htmlFor="pets-birthday">Product Price</label>
+                <label for="pets-birthday">Product Price</label>
                 <input
                   id="pets-birthday"
                   type="number"
@@ -108,7 +108,7 @@ const Vendor = () => {
             </div>
 
             <div className="pets-weight">
-              <label htmlFor="pet-weight-0-25">Description</label>
+              <label for="pet-weight-0-25">Description</label>
               <div className="radio-container">
                 <input
                   type="text"

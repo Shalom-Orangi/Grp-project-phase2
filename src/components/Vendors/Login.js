@@ -141,7 +141,7 @@ function Login({ login, setLogin }) {
                     </span>
                     <form id="stripe-login">
                       <div className="field padding-bottom--24">
-                        <label for="name">UserName</label>
+                        <label htmlFor="name">UserName</label>
                         <input
                           type="text"
                           name="name"
@@ -153,7 +153,7 @@ function Login({ login, setLogin }) {
                       </div>
                       <div className="field padding-bottom--24">
                         <div className="grid--50-50">
-                          <label for="password">Password</label>
+                          <label htmlFor="password">Password</label>
                         </div>
                         <input
                           type="text"

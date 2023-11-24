@@ -4,7 +4,28 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
-  const { items, removeItem } = useContext(CartContext);
+  const { items, removeItem,} = useContext(CartContext);
+
+const updateQuantity= async (itemId, updatedData) =>{
+  try{
+    const response =await fetch (`http://localhost:3000/products/${itemId}`,{
+      method:"PATCH",
+      headers:{
+        "Content-Type":"application/json",
+      },
+      body: JSON.stringify(updatedData),
+    });
+    if (response.ok){
+      //Item successfully updated in the server
+      updatedData(itemId);
+    }else{
+      //Handle error
+      console.log("Failed to update quantity in the cart");
+    }
+  }catch (error) {
+    console.error("Error:",error);
+  }
+}
 
   const handleDelete = async (itemId)=>{
     try{
@@ -50,6 +71,7 @@ const Cart = () => {
                     <span className="strike-text">${item.price}</span>
                   </div>
                   <h6 className="text-success">Free shipping</h6>
+                  <p>Available Items:{item.quantity}</p>
                   <div className="d-flex flex-column mt-4">
                     <Link to={`/detail/${item.id}`}>
                       <button
@@ -60,7 +82,16 @@ const Cart = () => {
                         }}
                       >
                         Details
-                      </button>
+                      </button><br/>
+                      <button
+                      className="btn btn-warning btn-sm "
+                      type="button"
+                      onClick={()=>{
+                        const updatedData={quantity} -1;
+                        updateQuantity(item.id,updatedData);
+                      }}>
+                        Purchase
+                        </button>
                     </Link>
                     <button
                       className="btn btn-danger btn-sm mt-2"
